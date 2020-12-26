@@ -4,7 +4,7 @@
 const byte slaveId = 1;
 const byte coilIdOffset = 0x00;
 const byte coilCount = 8;
-const byte relayPins[coilCount] = {A0, A1, A2, A3, A4, A5, 10, 11};
+const byte relayPins[coilCount] = {5, 6, 7, 8, 9, 10, 11, 12};
 const int txPin = 1;
 const int dePin = -1;
 const int rePin = -1;
